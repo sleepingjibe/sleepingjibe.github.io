@@ -1,0 +1,68 @@
+.cf:before, .cf:after {
+  content: "";
+  display: table;
+}
+
+.cf:after {
+  clear: both;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #302826;
+  font-family: 'Cinzel', 'serif';
+}
+
+.work {
+  padding: 5em;
+}
+
+.work .logo {
+  background: url("../img/logo.png");
+  background-repeat: no-repeat;
+  background-size: 60%;
+  background-position: top right;
+  width: 331px;
+  height: 509px;
+  float: right;
+  margin-right: 60px;
+}
+
+.work .link {
+  width: 343px;
+  height: auto;
+  float: left;
+}
+
+a {
+  font-size: 2.5em;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  color: #fff;
+  display: inline-block;
+  margin-bottom: 40px;
+  text-decoration: none;
+}
+
+.rotate {
+  transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+}
+
+.container {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  display: block;
+}
+
+.footer {
+  margin-top: -9%;
+  margin-left: 9%;
+  text-align: center;
+}
