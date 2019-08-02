@@ -9,6 +9,16 @@ html,body {
     background-color: black;
 }
 
+@font-face {
+    font-family: Guess-bold;
+    src: url("../fonts/Guess-bold.otf") format('otf');
+}
+
+@font-face {
+    font-family: Guess-ital;
+    src: url("../fonts/Guess-ital.otf") format('otf');
+}
+
 .container {
 
 }
@@ -55,7 +65,7 @@ html,body {
 }
 
 li{
-    font-family: 'Didot-bold', 'serif';
+    font-family: 'Guess-bold', 'serif';
     text-decoration: none;
     display: inline;
     color: white;
@@ -86,7 +96,7 @@ a {
 }
 
 .footer {
-    font-family: 'Didot-ital', 'serif';
+    font-family: 'Guess-ital', 'serif';
     color: #fff;
     position: fixed;
     text-align: center;
