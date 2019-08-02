@@ -1,0 +1,98 @@
+@import url(//db.onlinewebfonts.com/c/21a8cc39125a481602fba1dc80af6620?family=Didot-ital);
+@import url(//db.onlinewebfonts.com/c/76b8d17a5fe9c590fc35aefac5f08d33?family=Didot-bold);
+
+html,body {
+    height: 100%;
+    min-height: 100%;
+    display: grid;
+    grid-template-rows: 1fr auto;
+    background-color: black;
+}
+
+.container {
+
+}
+
+.container-inside {
+    position: relative;
+    margin: 100px;
+    margin-top: -20px;
+    text-align: center;
+    
+}
+
+.overlap {
+    position: relative;
+    width: 404px;
+    height: 393px;
+    margin: auto;
+    margin-top: 180px;
+    z-index: 0;
+}
+
+.container .container-inside .typography {
+    background: url('../img/typo.png') no-repeat top right;
+    width: 191px;
+    top: 0px;
+    height: 570px;
+    position: absolute;
+    z-index: 2;
+    margin-top: -120px;
+    margin-left: -28%
+
+}
+
+.logo {
+    background: url('../img/comfy%20but%20sad.png') no-repeat center;
+    background-size: contain;
+    width: 404px;
+    height: 393px;
+    margin: auto;
+    z-index: 1;
+    position: absolute
+    
+    
+}
+
+li{
+    font-family: 'Didot-bold', 'serif';
+    text-decoration: none;
+    display: inline;
+    color: white;
+    padding-left: 1px;
+    padding-right: 1px;
+    
+}
+
+ul {
+    
+    text-align: center
+
+}
+
+.pages {
+
+    margin-right: 45px;
+
+   
+    
+}
+
+
+a {
+    text-decoration: none;
+    color: white;
+    letter-spacing: 0.5px
+}
+
+.footer {
+    font-family: 'Didot-ital', 'serif';
+    color: #fff;
+    position: fixed;
+    text-align: center;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 20px;
+
+    
