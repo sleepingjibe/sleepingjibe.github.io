@@ -1,5 +1,5 @@
-@import url(//db.onlinewebfonts.com/c/21a8cc39125a481602fba1dc80af6620?family=Didot-ital);
-@import url(//db.onlinewebfonts.com/c/76b8d17a5fe9c590fc35aefac5f08d33?family=Didot-bold);
+@import url(//db.onlinewebfonts.com/c/21a8cc39125a481602fba1dc80af6620?family=Guess-ital);
+@import url(//db.onlinewebfonts.com/c/76b8d17a5fe9c590fc35aefac5f08d33?family=Guess-bold);
 
 html,body {
     height: 100%;
@@ -9,7 +9,7 @@ html,body {
     background-color: black;
 }
 
-@font-face {font-family: "Didot-bold";
+@font-face {font-family: "Guess-bold";
     src: url("//db.onlinewebfonts.com/t/76b8d17a5fe9c590fc35aefac5f08d33.eot");
     src: url("//db.onlinewebfonts.com/t/76b8d17a5fe9c590fc35aefac5f08d33.eot?#iefix") format("embedded-opentype"),
     url("//db.onlinewebfonts.com/t/76b8d17a5fe9c590fc35aefac5f08d33.woff2") format("woff2"),
@@ -18,7 +18,7 @@ html,body {
     url("//db.onlinewebfonts.com/t/76b8d17a5fe9c590fc35aefac5f08d33.svg#Didot") format("svg");
 }
 
-@font-face {font-family: "Didot-ital";
+@font-face {font-family: "Guess-ital";
     src: url("//db.onlinewebfonts.com/t/21a8cc39125a481602fba1dc80af6620.eot");
     src: url("//db.onlinewebfonts.com/t/21a8cc39125a481602fba1dc80af6620.eot?#iefix") format("embedded-opentype"),
     url("//db.onlinewebfonts.com/t/21a8cc39125a481602fba1dc80af6620.woff2") format("woff2"),
@@ -50,6 +50,8 @@ html,body {
 
 .container .container-inside .typography {
     background: url('../img/typo.png') no-repeat top right;
+    pointer-events: none;
+    background: url(../img/typo.png);
     width: 191px;
     top: 0px;
     height: 570px;
@@ -73,7 +75,7 @@ html,body {
 }
 
 li{
-    font-family: 'Didot-bold', 'serif';
+    font-family: 'Guess-bold', 'serif';
     text-decoration: none;
     display: inline;
     color: white;
@@ -104,7 +106,7 @@ a {
 }
 
 .footer {
-    font-family: 'Didot-ital', 'serif';
+    font-family: 'Guess-ital', 'serif';
     color: #fff;
     position: fixed;
     text-align: center;
