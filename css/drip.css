@@ -73,7 +73,7 @@ html,body {
 }
 
 li{
-    font-family: 'Guess-bold', 'serif';
+    font-family: 'Didot-bold', 'serif';
     text-decoration: none;
     display: inline;
     color: white;
@@ -104,7 +104,7 @@ a {
 }
 
 .footer {
-    font-family: 'Guess-ital', 'serif';
+    font-family: 'Didot-ital', 'serif';
     color: #fff;
     position: fixed;
     text-align: center;
