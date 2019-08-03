@@ -9,14 +9,22 @@ html,body {
     background-color: black;
 }
 
-@font-face {
-    font-family: Guess-bold;
-    src: url("../fonts/Guess-bold.otf") format('otf');
+@font-face {font-family: "Didot-bold";
+    src: url("//db.onlinewebfonts.com/t/76b8d17a5fe9c590fc35aefac5f08d33.eot");
+    src: url("//db.onlinewebfonts.com/t/76b8d17a5fe9c590fc35aefac5f08d33.eot?#iefix") format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/76b8d17a5fe9c590fc35aefac5f08d33.woff2") format("woff2"),
+    url("//db.onlinewebfonts.com/t/76b8d17a5fe9c590fc35aefac5f08d33.woff") format("woff"),
+    url("//db.onlinewebfonts.com/t/76b8d17a5fe9c590fc35aefac5f08d33.ttf") format("truetype"),
+    url("//db.onlinewebfonts.com/t/76b8d17a5fe9c590fc35aefac5f08d33.svg#Didot") format("svg");
 }
 
-@font-face {
-    font-family: Guess-ital;
-    src: url("../fonts/Guess-ital.otf") format('otf');
+@font-face {font-family: "Didot-ital";
+    src: url("//db.onlinewebfonts.com/t/21a8cc39125a481602fba1dc80af6620.eot");
+    src: url("//db.onlinewebfonts.com/t/21a8cc39125a481602fba1dc80af6620.eot?#iefix") format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/21a8cc39125a481602fba1dc80af6620.woff2") format("woff2"),
+    url("//db.onlinewebfonts.com/t/21a8cc39125a481602fba1dc80af6620.woff") format("woff"),
+    url("//db.onlinewebfonts.com/t/21a8cc39125a481602fba1dc80af6620.ttf") format("truetype"),
+    url("//db.onlinewebfonts.com/t/21a8cc39125a481602fba1dc80af6620.svg#Didot") format("svg");
 }
 
 .container {
